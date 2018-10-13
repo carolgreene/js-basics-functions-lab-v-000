@@ -12,7 +12,7 @@ function distanceTravelledInFeet(start, destination) {
 }
 
 function calculatesFarePrice(start, destination) {
-  switch (fare) {
+  switch (distanceTravelledInFeet) {
     case distanceTravelledInFeet <= 400:
     return 0;
     case distanceTravelledInFeet > 400 && distanceTravelledInFeet <= 2000:
